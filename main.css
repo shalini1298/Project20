@@ -1,0 +1,54 @@
+body {
+  font-family: helvetica;
+}
+.heart-image {
+  background-image: url("https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/08/background-color-in-css.png");
+  /* background-color: rgb(216, 207, 212); */
+  height: 600px;
+  background-position: right;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+div {
+  background-color: rgb(190, 172, 172);
+}
+h1 {
+  text-align: center;
+  text-shadow: 3px 2px Aqua;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+#date {
+  font-size: 12px;
+  font-style: italic;
+  text-align: right;
+}
